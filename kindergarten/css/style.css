@@ -1,0 +1,153 @@
+@font-face {
+	font-family: "Gotham Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Gotham Pro"),
+	url("fonts/Gotham Pro/gothampro.ttf") format("ttf");
+ }
+@import url('normalize.css');
+/*** var list ***/
+:root {
+	--font: #334155;
+	--red: #EA5D4A;
+	--violet: #8081BD;
+	--bright-blue: #0E95D3;
+}
+/*** common styles ***/
+a {
+	text-decoration: none;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+.flex {
+	display: flex;
+}
+.red-text {
+	color: var(--red);
+}
+/** --- **/
+.page * {
+	font-family: 'Montserrat', 'Gotham Pro', sans-serif;
+}
+.page__container,
+.page__element_size_full {
+	max-width: 1920px;
+}
+.page__element {
+	max-width: 1420px;
+	width: 100%;
+}
+.page__container,
+.page__container > * {
+	margin: 0 auto;
+}
+.header__logo {
+	align-items: flex-end;
+}
+.header {
+	padding: 17px 0 34px;
+	position: relative;
+}
+/** menu **/
+.menu {
+	flex-grow: 1;
+	justify-content: center;
+	align-items: flex-end;
+}
+.menu__wrapper {
+	justify-content: space-between;
+	max-width: 550px;
+	width: 100%;
+}
+.menu__item:has(ul):after {
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-color: var(--font);
+	transform: rotate(45deg);
+	position: absolute;
+	left: calc(50% - 7px);
+}
+.menu__item_active:has(ul):after {
+	border-color: var(--red);
+	bottom: -4px;
+    transform: rotate(225deg);
+}
+.menu__item {
+	font-weight: 600;
+	font-size: 14px;
+	padding: 12px 0;
+	position: relative;
+}
+.menu__item_active .menu__link {
+	color: var(--red);
+}
+/** inner-menu **/
+.menu__inner-menu {
+	display: none;
+}
+/* .menu__inner-menu {
+	position: absolute;
+	bottom: 0;
+} */
+
+.contacts__metro {
+	color: var(--bright-blue);
+}
+.contacts__adress {
+	font-weight: 600;
+	font-size: 12px;
+	text-align: right;
+}
+.contacts__callback {
+	font-weight: 700;
+	font-size: 10px;
+}
+.contacts__phone-number {
+	font-family: Gotham Pro;
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--font);
+	padding-left: 20px;
+	background: url("../img/icons/phone-icon.svg") no-repeat left;
+}
+.contacts__wrapper,
+.contacts__phone-container {
+	display: flex;
+}
+.contacts__item {
+	margin-left: 23px;
+}
+.contacts__phone-container {
+	flex-direction: column;
+	align-items: flex-end;
+	padding-top: 9px;
+}
+.vk-icon {
+	padding: 9px 15px;
+	background: url("../img/icons/vk-icon.svg") no-repeat center;
+}
+.telegram-icon {
+	padding: 9px 15px;
+	background: url("../img/icons/telegram-icon.svg") no-repeat center;
+}
+.popup-button {
+	width: 192px;
+	line-height: 40px;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	background-color: var(--violet);
+	border-radius: 50px;
+	white-space: nowrap;
+}
+

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+	</style>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Kids story - детский сад</title>
+</head>
+<body class="page">
+<div class="page__container">
+	<header class="header page__element flex">
+		<div class="logo header__logo flex">
+			<a class="logo__link">
+				<img class="logo__image" src="img/logo.svg" alt="логотип kids story">
+			</a>
+		</div>
+		<nav class="menu header__menu flex">
+			<ul class="menu__wrapper flex">
+				<li class="menu__item menu__item_active">
+					<a class="menu__link" href="">О нас</a>
+					<ul class="inner-menu menu__inner-menu flex">
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">О центре</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Документы</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Родителям</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Питание</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Новости</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">3D тур</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Отзывы</a></li>
+					</ul>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="">Расписания</a>
+					<!-- <ul class="inner-menu menu__inner-menu flex">
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Расписание основное</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Дополнительные услуги</a></li>
+					</ul> -->
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="">Программа</a>
+					<!-- <ul class="inner-menu menu__inner-menu flex">
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Группа (2-3 года)</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Группа (3-5 лет)</a></li>
+						<li class="inner-menu__item"><a class="inner-menu__link" href="">Группа (5-7 лет)</a></li>
+					</ul> -->
+				</li>
+				<li class="menu__item"><a class="menu__link" href="">Фото и видео</a></li>
+				<li class="menu__item"><a class="menu__link" href="">Команда</a></li>
+				<li class="menu__item"><a class="menu__link" href="">Контакты</a></li>
+			</ul>
+		</nav>
+		<div class="contacts header__contacts">
+			<div class="contacts__adress-container">
+				<p class="contacts__adress red-text">Москва, ул. Муравская д.38, к.1<span style="padding-right: 25px;"></span>ЖК Мир Митино <span class="contacts__metro">М. Пятницкое шоссе</span>
+				</p>
+			</div>
+			<div class="contacts__wrapper">
+				<div class="contacts__phone-container">
+					<a class="contacts__phone-number" href="tel:84951233425">+7 495 123 34 25</a>
+					<a class="contacts__callback red-text" href="#">Заказать обратный звонок</a>
+				</div>
+				<a class="contacts__item vk-icon" href="vk"></a>
+				<a class="contacts__item telegram-icon" href="tg"></a>
+				<a class="contacts__item popup-button" href="popup">Записаться на экскурсию</a>
+			</div>
+		</div>
+	</header>
+	<div class="main-banner page__element page__element_size_full">
+		<div>
+			<hgroup>
+				<h1>Kidsstory</h1>
+				<p>Английский детский сад и клуб</p>
+			</hgroup>
+			<div class="main-banner__arrows">
+				<button class="left-arrow"></button>
+				<button class="right-arrow"></button>
+			</div>
+		</div>
+		<div class="main-banner__feedback-form feedback-form">
+			<h2>Запишитесь на персональную экскурсию</h2>
+			<p>Заполните форму и посмотрите детский сад вживую в удобное для вас время</p>
+			<form method="post" action="#">
+				<input type="text" name="name" placeholder="Ваше имя" required>
+				<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
+				<input type="email" name="email" placeholder="Ваш e-mail">
+				<label>
+					<input type="checkbox" checked required>
+					<span class="fakeCheckbox"></span> Я принимаю условия <a href="#">пользовательского соглашения</a>
+				</label>
+				<button>ЗАПИСАТЬСЯ</button>
+			</form>
+		</div>
+	</div>
+	
+	<section class="information page__element">
+		<ul>
+			<li><strong>Часы работы:</strong> с 7:00 до 19:00</li>
+			<li><strong>Видеонаблюдение:</strong> онлайн</li>
+			<li><strong>Утренний фильтр медработником:</strong> ежедневно</li>
+			<li><strong>Группы:</strong> до 15 человек</li>
+			<li><strong>Англоязычная среда:</strong> билингвал / экспат</li>
+			<li><strong>Помещение:</strong> 800 кв.м</li>
+			<li><strong>Площадь для прогулок:</strong> собственная оборудованная территория для прогулок</li>
+			<li><strong>Возраст детей:</strong> с 1,5 до 7 лет</li>
+			<li><strong>Питание:</strong> 5-разовое, с учетом индивидуальных особенностей ребенка</li>
+		</ul>
+	</section>
+	<section class="callback-banner--dark page__element">
+		<div>
+			<h2>Есть вопросы? Получите бесплатную консультацию</h2>
+			<p>Оставьте телефон и мы перезвоним<br> 
+			и расскажем все подробности о филиале</p>
+			<form method="post" action="#">
+				<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
+				<button>отправить</button>
+				<label><input type="checkbox" checked required><span class="fakeCheckbox"></span> Я принимаю условия <br><a href="#">пользовательского соглашения</a></label>
+			</form>
+		</div>
+		<div>Тут мальчик с лупой на бэкграунде</div>
+	</section>
+	<section class="extra-services page__element">
+		<h2>Дополнительные услуги</h2>
+		<ul>
+			<li>Йога</li>
+			<li>Монтессори группа с уникальным древесинным оборудованием</li>
+			<li>Гольф для малышей</li>
+			<li>Занятия с беговелами</li>
+			<li>Легостроение и конструирование</li>
+			<li>Тестопластика и глинопластика</li>
+			<li>Риторика и ораторское мастерство</li>
+			<li>Занятия по скалолазанию</li>
+			<li>Театрализация на английском языке</li>
+			<li>Кулинария и этикет сервисного стола</li>
+			<li>Песочная терапия. Работа на интерактивных столах и досках</li>
+		</ul>
+	</section>
+	<section class="video-gallery page__element">
+		<h2>Видеогалерея нашего сада</h2>
+		<p>Вы можете ознакомиться как проходят наши будни</p>
+		<article>Видео 1</article>
+		<article>Видео 2</article>
+		<article>Видео 3</article>
+	</section>
+	<section class="advantages page__element">
+		<h2>Преимущества</h2>
+		<p>Наша авторская программа ведётся на русском и английском языках и состоит из увлекательных мероприятий</p>
+		<ul>
+			<li>Мастер-классы</li>
+			<li>Игры-квесты</li>
+			<li>Конференции и проекты</li>
+			<li>Опыты и эксперименты</li>
+			<li>Концерты и спектакли</li>
+			<li>Соревнования</li>
+		</ul>
+	</section>
+	<section class="team page__element">
+		<h2>Наша команда</h2>
+		<article>
+			<img alt="Журавлев Дмитрий Анатольевич" src="img/pedagog1.jpeg">
+			<h3><span>Журавлев</span><br>Дмитрий Анатольевич</h3>
+			<p>Педагог-психолог</p>
+			<p>Стаж 11 лет</p>
+		</article>
+		<article>
+			<img alt="Журавлев Дмитрий Анатольевич" src="img/pedagog2.jpeg">
+			<h3><span>Журавлев</span><br>Дмитрий Анатольевич</h3>
+			<p>Педагог-психолог</p>
+			<p>Стаж 11 лет</p>
+		</article>
+		<article>
+			<img alt="Журавлев Дмитрий Анатольевич" src="img/pedagog1.jpeg">
+			<h3><span>Журавлев</span><br>Дмитрий Анатольевич</h3>
+			<p>Педагог-психолог</p>
+			<p>Стаж 11 лет</p>
+		</article>
+		<article>
+			<img alt="Журавлев Дмитрий Анатольевич" src="img/pedagog2.jpeg">
+			<h3><span>Журавлев</span><br>Дмитрий Анатольевич</h3>
+			<p>Педагог-психолог</p>
+			<p>Стаж 11 лет</p>
+		</article>
+	</section>
+	<section class="callback-banner--light page__element">
+		<div>
+			<h2>Остались вопросы? Получите бесплатную консультацию</h2>
+			<p>Оставьте телефон и мы перезвоним<br> 
+			и расскажем все подробности о филиале</p>
+			<form method="post" action="#">
+				<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
+				<button>отправить</button>
+				<label><input type="checkbox" checked required><span class="fakeCheckbox"></span> Я принимаю условия <br><a href="#">пользовательского соглашения</a></label>
+			</form>
+		</div>
+		<div>Тут мальчик в очках на бэкграунде</div>
+	</section>
+	<section class="about-us page__element">
+		<h2>О нашем центре</h2>
+		<p>Мы создали пространство, в котором каждый ребёнок проявляет и раскрывает себя, развивает индивидуальные особенности и таланты.</p>
+		<p><strong>Наша задача — сделать так, чтобы каждый день в Kids story был счастливым.</strong></p>
+		<ul>
+			<li>Английский детский клуб. Для детей с 2 до 7 лет. Погружение в языковую среду, собственная кухня, охраняемая огороженная территория, медицинский кабинет, соляная пещера.</li>
+			<li>Дополнительные услуги. Для детей с 2 до 18 лет. Развивающие студии, творческие мастерские, спортивные секции.</li>
+			<li>Kids story - «ежедневное развитие детей на 360 градусов».</li>
+		</ul>
+	</section>
+	<section class="reviews page__element">
+		<h2>Отзывы о саде</h2>
+		<article>
+			<span>Дмитрий</span><br>
+			<span>Москва</span>
+			<p>Водим двоих детей, очень довольны уровнем и качеством образования, если нужен просто детский сад, то вам не сюда. Дети знают английский (произношение, грамматика и пр.)</p>
+			<a href="#">Прочитать отзыв</a>
+		</article>
+		<article>
+			<span>Дмитрий</span><br>
+			<span>Москва</span>
+			<p>Водим двоих детей, очень довольны уровнем и качеством образования, если нужен просто детский сад, то вам не сюда. Дети знают английский (произношение, грамматика и пр.)</p>
+			<a href="#">Прочитать отзыв</a>
+		</article>
+	</section>
+	<section class="map page__element">
+		<h2>Kids story на карте</h2>
+	</section>
+	<footer class="footer page__element">
+	</footer>
+</div>
+
+</body>
+</html>
