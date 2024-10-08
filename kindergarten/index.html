@@ -8,105 +8,165 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Kids story - детский сад</title>
+	<script defer src="js/jquery-3.7.1.min.js"></script>
+	<script defer src="js/script.js"></script>
 </head>
 <body class="page">
-<div class="page__container">
-	<header class="header page__element flex">
-		<div class="logo header__logo flex">
-			<a class="logo__link">
-				<img class="logo__image" src="img/logo.svg" alt="логотип kids story">
-			</a>
-		</div>
-		<nav class="menu header__menu flex">
-			<ul class="menu__wrapper flex">
-				<li class="menu__item menu__item_active">
-					<a class="menu__link" href="">О нас</a>
-					<ul class="inner-menu menu__inner-menu flex">
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">О центре</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Документы</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Родителям</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Питание</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Новости</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">3D тур</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Отзывы</a></li>
+
+<div class="mobile-panel">
+	<div class="mobile-panel__container flex">
+		<button class="mobile-panel__close"></button>
+		<nav class="mobile-panel__menu menu">
+			<ul class="mobile-panel__menu-wrapper flex">
+				<li class="menu__item mobile-panel__menu-item">
+					<a class="menu__link mobile-panel__menu-link" href="">О нас</a>
+					<ul class="menu__submenu hidden">
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">О центре</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Документы</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Родителям</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Питание</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Новости</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">3D тур</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Отзывы</a></li>
 					</ul>
 				</li>
-				<li class="menu__item">
-					<a class="menu__link" href="">Расписания</a>
-					<!-- <ul class="inner-menu menu__inner-menu flex">
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Расписание основное</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Дополнительные услуги</a></li>
-					</ul> -->
+				<li class="menu__item mobile-panel__menu-item">
+					<a class="menu__link mobile-panel__menu-link" href="">Расписание</a>
+					<ul class="menu__submenu hidden">
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Расписание основное</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Дополнительные услуги</a></li>
+					</ul>
 				</li>
-				<li class="menu__item">
-					<a class="menu__link" href="">Программа</a>
-					<!-- <ul class="inner-menu menu__inner-menu flex">
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Группа (2-3 года)</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Группа (3-5 лет)</a></li>
-						<li class="inner-menu__item"><a class="inner-menu__link" href="">Группа (5-7 лет)</a></li>
-					</ul> -->
+				<li class="menu__item mobile-panel__menu-item">
+					<a class="menu__link mobile-panel__menu-link" href="">Программа</a>
+					<ul class="menu__submenu hidden">
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Группа (2-3 года)</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Группа (3-5 лет)</a></li>
+						<li class="menu__submenu-item"><a class="menu__submenu-link" href="">Группа (5-7 лет)</a></li>
+					</ul>
 				</li>
-				<li class="menu__item"><a class="menu__link" href="">Фото и видео</a></li>
-				<li class="menu__item"><a class="menu__link" href="">Команда</a></li>
-				<li class="menu__item"><a class="menu__link" href="">Контакты</a></li>
+				<li class="menu__item mobile-panel__menu-item"><a class="menu__link mobile-panel__menu-link" href="">Фото и видео</a></li>
+				<li class="menu__item mobile-panel__menu-item"><a class="menu__link mobile-panel__menu-link" href="">Команда</a></li>
+				<li class="menu__item mobile-panel__menu-item"><a class="menu__link mobile-panel__menu-link" href="">Контакты</a></li>
+			</ul>
+		</nav>
+		<a class="contacts__item popup-button mobile-panel__popup-button" href="popup">Записаться на экскурсию</a>
+		<div class="contacts__phone-container mobile-panel__phone-container flex">
+			<a class="contacts__phone-number mobile-panel__phone-number" href="tel:84951233425">+7 495 123 34 25</a>
+			<a class="contacts__callback red-text" href="#">Заказать обратный звонок</a>
+		</div>
+		<div class="socials contacts__socials-wrapper flex">
+			<a class="socials__icon mobile-panel__socials-icon mobile-panel__vk-icon" href="vk"></a>
+			<a class="socials__icon mobile-panel__socials-icon mobile-panel__telegram-icon" href="tg"></a>
+		</div>
+	</div>
+</div>
+
+<div class="page__container">
+	<header class="header">
+	<div class="header__container page__element flex">
+	
+		<a class="logo flex">
+			<img class="logo__image" src="img/logo.svg" alt="логотип kids story">
+		</a>
+		
+		<nav class="menu header__menu flex">
+			<ul class="menu__wrapper header__menu-wrapper flex">
+				<li class="menu__item header__menu-item">
+					<a class="menu__link header__menu-link" href="">О нас</a>
+					<ul class="menu__submenu header__submenu hidden">
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">О центре</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Документы</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Родителям</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Питание</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Новости</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">3D тур</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Отзывы</a></li>
+					</ul>
+				</li>
+				<li class="menu__item header__menu-item">
+					<a class="menu__link header__menu-link" href="">Расписания</a>
+					<ul class="menu__submenu header__submenu hidden">
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Расписание основное</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Дополнительные услуги</a></li>
+					</ul>
+				</li>
+				<li class="menu__item header__menu-item">
+					<a class="menu__link header__menu-link" href="">Программа</a>
+					<ul class="menu__submenu header__submenu hidden">
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Группа (2-3 года)</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Группа (3-5 лет)</a></li>
+						<li class="menu__submenu-item header__submenu-item"><a class="menu__submenu-link header__submenu-link" href="">Группа (5-7 лет)</a></li>
+					</ul>
+				</li>
+				<li class="menu__item header__menu-item"><a class="menu__link header__menu-link" href="">Фото и видео</a></li>
+				<li class="menu__item header__menu-item"><a class="menu__link header__menu-link" href="">Команда</a></li>
+				<li class="menu__item header__menu-item"><a class="menu__link header__menu-link" href="">Контакты</a></li>
 			</ul>
 		</nav>
 		<div class="contacts header__contacts">
-			<div class="contacts__adress-container">
+			<div class="contacts__adress-container header__adress-container">
 				<p class="contacts__adress red-text">Москва, ул. Муравская д.38, к.1<span style="padding-right: 25px;"></span>ЖК Мир Митино <span class="contacts__metro">М. Пятницкое шоссе</span>
 				</p>
 			</div>
-			<div class="contacts__wrapper">
-				<div class="contacts__phone-container">
+			<div class="contacts__wrapper header__contacts-wrapper flex">
+				<div class="contacts__phone-container header__phone-container flex">
 					<a class="contacts__phone-number" href="tel:84951233425">+7 495 123 34 25</a>
 					<a class="contacts__callback red-text" href="#">Заказать обратный звонок</a>
 				</div>
-				<a class="contacts__item vk-icon" href="vk"></a>
-				<a class="contacts__item telegram-icon" href="tg"></a>
-				<a class="contacts__item popup-button" href="popup">Записаться на экскурсию</a>
+				<div class="socials contacts__socials-wrapper header__socials-wrapper flex">
+					<a class="socials__icon header__socials-icon vk-icon" href="vk"></a>
+					<a class="socials__icon header__socials-icon telegram-icon" href="tg"></a>
+				</div>
+				<a class="contacts__item header__popup-button popup-button" href="popup">Записаться на экскурсию</a>
 			</div>
 		</div>
-	</header>
-	<div class="main-banner page__element page__element_size_full">
-		<div>
-			<hgroup>
-				<h1>Kidsstory</h1>
-				<p>Английский детский сад и клуб</p>
-			</hgroup>
-			<div class="main-banner__arrows">
-				<button class="left-arrow"></button>
-				<button class="right-arrow"></button>
-			</div>
-		</div>
-		<div class="main-banner__feedback-form feedback-form">
-			<h2>Запишитесь на персональную экскурсию</h2>
-			<p>Заполните форму и посмотрите детский сад вживую в удобное для вас время</p>
-			<form method="post" action="#">
-				<input type="text" name="name" placeholder="Ваше имя" required>
-				<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
-				<input type="email" name="email" placeholder="Ваш e-mail">
-				<label>
-					<input type="checkbox" checked required>
-					<span class="fakeCheckbox"></span> Я принимаю условия <a href="#">пользовательского соглашения</a>
-				</label>
-				<button>ЗАПИСАТЬСЯ</button>
-			</form>
-		</div>
+		<button class="header__mobile-panel-button mobile-panel__burger">
+			<span class="mobile-panel__burger-line"></span>
+		</button>
 	</div>
-	
-	<section class="information page__element">
-		<ul>
-			<li><strong>Часы работы:</strong> с 7:00 до 19:00</li>
-			<li><strong>Видеонаблюдение:</strong> онлайн</li>
-			<li><strong>Утренний фильтр медработником:</strong> ежедневно</li>
-			<li><strong>Группы:</strong> до 15 человек</li>
-			<li><strong>Англоязычная среда:</strong> билингвал / экспат</li>
-			<li><strong>Помещение:</strong> 800 кв.м</li>
-			<li><strong>Площадь для прогулок:</strong> собственная оборудованная территория для прогулок</li>
-			<li><strong>Возраст детей:</strong> с 1,5 до 7 лет</li>
-			<li><strong>Питание:</strong> 5-разовое, с учетом индивидуальных особенностей ребенка</li>
-		</ul>
-	</section>
+
+	</header>
+	<main class="page__content-wrapper">
+		<div class="main-banner page__element_size_full">
+			<div>
+				<hgroup>
+					<h1>Kidsstory</h1>
+					<p>Английский детский сад и клуб</p>
+				</hgroup>
+				<div class="main-banner__arrows">
+					<button class="left-arrow"></button>
+					<button class="right-arrow"></button>
+				</div>
+			</div>
+			<div class="main-banner__feedback-form feedback-form">
+				<h2>Запишитесь на персональную экскурсию</h2>
+				<p>Заполните форму и посмотрите детский сад вживую в удобное для вас время</p>
+				<form method="post" action="#">
+					<input type="text" name=" name" placeholder="Ваше имя" required>
+					<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
+					<input type="email" name="email" placeholder="Ваш e-mail">
+					<label>
+						<input type="checkbox" checked required>
+						<span class="fakeCheckbox"></span> Я принимаю условия <a href="#">пользовательского соглашения</a>
+					</label>
+					<button>ЗАПИСАТЬСЯ</button>
+				</form>
+			</div>
+		</div>
+		<section class="information page__element">
+			<ul>
+				<li><strong>Часы работы:</strong> с 7:00 до 19:00</li>
+				<li><strong>Видеонаблюдение:</strong> онлайн</li>
+				<li><strong>Утренний фильтр медработником:</strong> ежедневно</li>
+				<li><strong>Группы:</strong> до 15 человек</li>
+				<li><strong>Англоязычная среда:</strong> билингвал / экспат</li>
+				<li><strong>Помещение:</strong> 800 кв.м</li>
+				<li><strong>Площадь для прогулок:</strong> собственная оборудованная территория для прогулок</li>
+				<li><strong>Возраст детей:</strong> с 1,5 до 7 лет</li>
+				<li><strong>Питание:</strong> 5-разовое, с учетом индивидуальных особенностей ребенка</li>
+			</ul>
+		</section>
 	<section class="callback-banner--dark page__element">
 		<div>
 			<h2>Есть вопросы? Получите бесплатную консультацию</h2>
@@ -222,8 +282,79 @@
 	</section>
 	<section class="map page__element">
 		<h2>Kids story на карте</h2>
+		<iframe class="map__container" src="https://yandex.ru/map-widget/v1/?um=constructor%3A73fde155a618dbcc0fb8fa3e908e03c0f476651a3eee9a0fdd1d27e8f5ab1164&amp;source=constructor" width="1084" height="501" frameborder="0"></iframe>
 	</section>
+	</main>
+	
 	<footer class="footer page__element">
+			
+		<a class="logo flex">
+			<img class="logo__image" src="img/logo.svg" alt="логотип kids story">
+		</a>
+		
+		<div class="footer__content-wrapper flex">
+			<div class="contacts footer__contacts">
+				<div class="contacts__wrapper footer__contacts__wrapper">
+					<div class="contacts__phone-container footer__phone-container flex">
+						<a class="contacts__phone-number footer__phone-number" href="tel:84951233425">+7 495 123 34 25</a>
+						<a class="contacts__email-address footer__email-address" href="#">dir@kidsstory.life</a>
+					</div>
+					
+					<button class="footer__mobile-panel-button hidden">Меню сайта</button>
+					
+					<div class="contacts__adress-container footer__adress-container">
+						<p class="contacts__adress footer__contacts-adress">Москва, ул. Муравская д.38, к.1<br>ЖК Мир Митино <span class="contacts__metro">М. Пятницкое шоссе</span>
+						</p>
+					</div>
+					<div class="socials contacts__socials-wrapper footer__socials-wrapper flex">
+						<a class="socials__icon footer__socials-icon vk-icon" href="vk"></a>
+						<a class="socials__icon footer__socials-icon telegram-icon" href="tg"></a>
+					</div>
+				</div>
+			</div>
+			
+			<nav class="menu footer__menu flex">
+				<ul class="menu__wrapper footer__menu-wrapper flex">
+					<li class="menu__item footer__menu-item">
+						<a class="menu__link footer__menu-link" href="">О нас</a>
+						<ul class="menu__submenu footer__submenu">
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">О центре</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Документы</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Родителям</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Питание</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Новости</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">3D тур</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Отзывы</a></li>
+						</ul>
+					</li>
+					<li class="menu__item footer__menu-item">
+						<a class="menu__link footer__menu-link" href="">Расписания</a>
+						<ul class="menu__submenu footer__submenu">
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Расписание основное</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Дополнительные услуги</a></li>
+						</ul>
+					</li>
+					<li class="menu__item footer__menu-item">
+						<a class="menu__link footer__menu-link" href="">Программа</a>
+						<ul class="menu__submenu footer__submenu">
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Группа (2-3 года)</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Группа (3-5 лет)</a></li>
+							<li class="menu__submenu-item footer__submenu-item"><a class="menu__submenu-link footer__submenu-link" href="">Группа (5-7 лет)</a></li>
+						</ul>
+					</li>
+					<li class="menu__item footer__menu-item"><a class="menu__link footer__menu-link" href="">Фото и видео</a></li>
+					<li class="menu__item footer__menu-item"><a class="menu__link footer__menu-link" href="">Команда</a></li>
+					<li class="menu__item footer__menu-item"><a class="menu__link footer__menu-link" href="">Контакты</a></li>
+				</ul>
+			</nav>
+			
+		</div>
+		
+		<div class="footer__copyrights flex">
+			<p class="footer__copyright-item footer__copyright-date">Copyrights: Kids Story 2021</p>
+			<p class="footer__copyright-item footer__copyright-author">Дизайн <b>ZHURAVLEV</b></p>
+		</div>
+				
 	</footer>
 </div>
 
