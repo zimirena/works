@@ -1,9 +1,8 @@
-<svg width="76.000000" height="76.000000" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="48.738983" height="48.739014" viewBox="0 0 48.739 48.739" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
 	</desc>
 	<defs/>
-	<rect id="Rectangle 38" rx="10.000000" width="76.000000" height="76.000000" fill="#F6B31F" fill-opacity="1.000000"/>
-	<path id="Vector" d="M37.86 60.73C25.23 60.73 15 50.5 15 37.86C15 25.23 25.23 15 37.86 15C50.5 15 60.73 25.23 60.73 37.86C60.73 50.5 50.5 60.73 37.86 60.73Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M37.86 17.74L37.86 37.86L23.15 37.86" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<path id="Vector" d="M24.36 47.23C11.73 47.23 1.5 37 1.5 24.36C1.5 11.73 11.73 1.5 24.36 1.5C37 1.5 47.23 11.73 47.23 24.36C47.23 37 37 47.23 24.36 47.23Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M24.36 4.24L24.36 24.36L9.65 24.36" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round" stroke-linecap="round"/>
 </svg>

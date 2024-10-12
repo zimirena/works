@@ -1,18 +1,17 @@
-<svg width="76.000000" height="76.000000" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="48.732178" height="48.725586" viewBox="0 0 48.7322 48.7256" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
 	</desc>
 	<defs/>
-	<rect id="Rectangle 46" rx="10.000000" width="76.000000" height="76.000000" fill="#8081BD" fill-opacity="1.000000"/>
-	<path id="Vector" d="M37.87 15L43.41 20.54L43.41 60.72L32.31 60.72L32.31 20.54L37.85 15L37.87 15Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M23.79 15L29.34 20.54L29.34 60.72L18.23 60.72L18.23 20.54L23.78 15L23.79 15Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M51.94 15L57.49 20.54L57.49 60.72L46.39 60.72L46.39 20.54L51.93 15L51.94 15Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M18.23 36.98L15 36.98L15 27.73L18.23 27.73L18.23 36.98Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M60.73 36.98L57.49 36.98L57.49 27.73L60.73 27.73L60.73 36.98Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M46.39 36.98L43.41 36.98L43.41 27.73L46.39 27.73L46.39 36.98Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M32.31 36.98L29.34 36.98L29.34 27.73L32.31 27.73L32.31 36.98Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M18.23 53.81L15 53.81L15 44.56L18.23 44.56L18.23 53.81Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M60.73 53.81L57.49 53.81L57.49 44.56L60.73 44.56L60.73 53.81Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M46.39 53.81L43.41 53.81L43.41 44.56L46.39 44.56L46.39 53.81Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
-	<path id="Vector" d="M32.31 53.81L29.34 53.81L29.34 44.56L32.31 44.56L32.31 53.81Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M24.37 1.5L29.91 7.04L29.91 47.22L18.81 47.22L18.81 7.04L24.35 1.5L24.37 1.5Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M10.29 1.5L15.84 7.04L15.84 47.22L4.73 47.22L4.73 7.04L10.28 1.5L10.29 1.5Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M38.44 1.5L43.99 7.04L43.99 47.22L32.89 47.22L32.89 7.04L38.43 1.5L38.44 1.5Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M4.73 23.48L1.5 23.48L1.5 14.23L4.73 14.23L4.73 23.48Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M47.23 23.48L43.99 23.48L43.99 14.23L47.23 14.23L47.23 23.48Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M32.89 23.48L29.91 23.48L29.91 14.23L32.89 14.23L32.89 23.48Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M18.81 23.48L15.84 23.48L15.84 14.23L18.81 14.23L18.81 23.48Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M4.73 40.31L1.5 40.31L1.5 31.06L4.73 31.06L4.73 40.31Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M47.23 40.31L43.99 40.31L43.99 31.06L47.23 31.06L47.23 40.31Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M32.89 40.31L29.91 40.31L29.91 31.06L32.89 31.06L32.89 40.31Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="Vector" d="M18.81 40.31L15.84 40.31L15.84 31.06L18.81 31.06L18.81 40.31Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
 </svg>

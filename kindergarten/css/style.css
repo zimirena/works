@@ -29,8 +29,7 @@ button {
     border: none;
 	cursor: pointer;
 }
-ul,
-p {
+ul, p, h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
 }
@@ -49,6 +48,19 @@ li {
 }
 .red-text {
 	color: var(--red);
+}
+.heading-2 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	padding-bottom: 41px;
+	color: var(--violet);
+}
+.section__description {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	padding-bottom: 41px;
 }
 /** --- **/
 
@@ -157,7 +169,6 @@ li {
 .menu__submenu-link:hover {
 	color: var(--red);
 }
-
 
 /* contacts block */
 .contacts__metro {
@@ -397,6 +408,95 @@ li {
 .map__container {
 	width: 100%;
 }
+/** Услуги **/
+.services_top {
+	padding: 102px 0 116px;
+}
+.services_bottom {
+	padding-bottom: 94px;
+}
+.extra-services {
+	padding-bottom: 77px;
+}
+.services__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 25px;
+}
+.services__icon {
+	padding: 15px;
+    width: 76px;
+    height: 76px;
+    box-sizing: border-box;
+	border-radius: 10px;
+	background-color: #8081BD;
+	flex-shrink: 0;
+	margin: 0 20px 0 0;
+    stroke: white;
+}
+.services__icon_orange {
+	background-color: #F6B31F;
+}
+.services__icon_purple {
+	background-color: #8081BD;
+}
+.services__icon_rose {
+	background-color: #F3ACC8;
+}
+.services__icon_blue {
+	background-color: #0E95D3;
+}
+.services__item {
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	line-height: 20px;
+}
+.extra-services__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 20px;
+	column-gap: 1%;
+	grid-template-rows: repeat(3, 1fr);
+}
+.extra-services__description {
+	width: 100%;
+	text-align: center
+}
+.extra-services__item_size-s { 
+	width: 17%;
+}
+.extra-services__item_size-m { 
+	width: 24%;
+}
+.extra-services__item_size-l { 
+	width: 30%;
+}
+.extra-services__item_size-xl { 
+	width: 38%;
+}
+
+.extra-services__icon {
+	padding: 15px;
+    width: 76px;
+    height: 76px;
+    box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	margin: 0 12px 0 0;
+	flex-shrink: 0;
+}
+.extra-services__item {
+	padding: 12px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	line-height: 20px;
+	background-color: #FFF6D1;
+	border-radius: 10px;
+}
 
 
 @media screen and (max-width: 1370px) {
@@ -422,6 +522,20 @@ li {
 	.header__container {
 		align-items: flex-end;
 	}
+	.extra-services__item_size-s { 
+	width: 20%;
+	}
+	.extra-services__item_size-m { 
+		width: 22%;
+	}
+	.extra-services__item_size-l { 
+		width: 30%;
+	}
+	.extra-services__item_size-xl { 
+		width: 27%;
+	}
+
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -466,9 +580,7 @@ li {
 	.footer__phone-container {
 		padding-bottom: 20px;
 	}
-	/* .footer__copyrights {
-		flex-direction: column;
-	} */
+
 	.footer__copyright-author {
 		padding-top: 13px;
 		font-size: 10px;
@@ -476,7 +588,49 @@ li {
 	.footer__adress-container {
 		padding: 27px 0 22px;
 	}
+	.extra-services__item {
+		width: 45%;
+	}
+	.services__list {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.services__item_top-list:nth-child(3) {
+		order: 1;
+	}
+	.services__item_top-list:nth-child(6) {
+		order: 3;
+	}
+	.services__item_top-list:nth-child(9) {
+		order: 2;
+	}
 
+}
+@media (max-width: 700px) {
+	.extra-services__item {
+		width: 100%;
+	}
+	.services__icon,
+	.extra-services__icon {
+		width: 56px;
+		height: 56px;
+	}
+	.extra-services__icon {
+		margin: 0 9px 0 0;
+	}
+	.services__item,
+	.extra-services__item	{
+		font-size: 12px;
+	}
+	.extra-services__list {
+		row-gap: 9px;
+	}
+	.extra-services__item {
+		padding: 9px;
+	}
+	.extra-services__description {
+		text-align: start;
+	}
 }
 
 @media (max-width: 550px) {
@@ -503,6 +657,22 @@ li {
 	.footer__phone-number,
 	.footer__email-address {
     padding-left: 30px;
-}
+	}
+	.services__item {
+		flex-direction: column;
+	}
+	.services__description {
+		text-align: center;
+	}
+	.services__icon {
+		margin: 0 0 10px 0;
+	}
+	.services__list {
+		column-gap: 20px;
+		row-gap: 13px;
+	}
+	.services__list_bottom {
+		row-gap: 20px;
+	}
 	
 }

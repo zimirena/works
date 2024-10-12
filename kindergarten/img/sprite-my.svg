@@ -1,0 +1,6 @@
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<symbol id="clock" viewBox="0 0 48.739 48.739">
+				<path id="Vector" d="M24.36 47.23C11.73 47.23 1.5 37 1.5 24.36C1.5 11.73 11.73 1.5 24.36 1.5C37 1.5 47.23 11.73 47.23 24.36C47.23 37 37 47.23 24.36 47.23Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+				<path id="Vector" d="M24.36 4.24L24.36 24.36L9.65 24.36" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		</symbol>
+	</svg>
