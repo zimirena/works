@@ -128,32 +128,33 @@
 
 	</header>
 	<main class="page__content-wrapper">
-		<div class="main-banner page__element_size_full">
-			<div>
-				<hgroup>
-					<h1>Kidsstory</h1>
-					<p>Английский детский сад и клуб</p>
-				</hgroup>
-				<div class="main-banner__arrows">
-					<button class="left-arrow"></button>
-					<button class="right-arrow"></button>
-				</div>
-			</div>
-			<div class="main-banner__feedback-form feedback-form">
-				<h2 class="heading-2">Запишитесь на персональную экскурсию</h2>
-				<p>Заполните форму и посмотрите детский сад вживую в удобное для вас время</p>
-				<form method="post" action="#">
-					<input type="text" name=" name" placeholder="Ваше имя" required>
-					<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
-					<input type="email" name="email" placeholder="Ваш e-mail">
-					<label>
-						<input type="checkbox" checked required>
-						<span class="fakeCheckbox"></span> Я принимаю условия <a href="#">пользовательского соглашения</a>
-					</label>
-					<button>ЗАПИСАТЬСЯ</button>
-				</form>
+	<div class="main-banner page__element_size_full">
+		<div class="main-banner__content">
+			<hgroup>
+				<h1>Kidsstory</h1>
+				<p>Английский детский сад и клуб</p>
+			</hgroup>
+			<div class="main-banner__arrows">
+				<button class="left-arrow"></button>
+				<button class="right-arrow"></button>
 			</div>
 		</div>
+		<div class="main-banner__callback callback">
+			<h2 class="heading-2 callback__heading main-banner__callback-heading">Запишитесь на персональную экскурсию</h2>
+			<p class="callback__description">Заполните форму и посмотрите детский сад вживую в удобное для вас время</p>
+			<form class="callback__form callback-form" method="post" action="#">
+				<input class="callback-form__input callback-form__name" type="text" name=" name" placeholder="Ваше имя" required>
+				<input class="callback-form__input callback-form__phone" type="tel" name="phone" placeholder="+7___-___-__-__" required>
+				<input class="callback-form__input callback-form__email" type="email" name="email" placeholder="Ваш e-mail">
+				<label class="callback-form__agreement agreement">
+					<input class="agreement__checkbox" type="checkbox" checked required>
+					<span class="agreement__fake-checkbox"></span>
+					<span class="agreement__text"> Я принимаю условия <br><a class="agreement__link" href="#">пользовательского соглашения</a></span>
+				</label>
+				<button class="callback-form__submit">ЗАПИСАТЬСЯ</button>
+			</form>
+		</div>
+	</div>
 	<section class="services services_top page__element">
 
 		<ul class="services__list">
@@ -213,18 +214,24 @@
 			</li>
 		</ul>
 	</section>
-	<section class="callback-banner--dark page__element">
-		<div>
-			<h2 class="heading-2">Есть вопросы? Получите бесплатную консультацию</h2>
-			<p>Оставьте телефон и мы перезвоним<br> 
-			и расскажем все подробности о филиале</p>
-			<form method="post" action="#">
-				<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
-				<button>отправить</button>
-				<label><input type="checkbox" checked required><span class="fakeCheckbox"></span> Я принимаю условия <br><a href="#">пользовательского соглашения</a></label>
-			</form>
+	<section class="callback callback_middle page__element_size_full">
+		<div class="callback__wrapper">
+			<div class="callback__content">
+				<h2 class="heading-2 callback__heading">Есть вопросы? Получите бесплатную консультацию</h2>
+				<p class="callback__description">Оставьте телефон и мы перезвоним<br> 
+				и расскажем все подробности о филиале</p>
+				<form class="callback__form  callback-form" method="post" action="#">
+					<input class="callback-form__input callback-form__phone" type="tel" name="phone" placeholder="+7___-___-__-__" required>
+					<button class="callback-form__submit">отправить</button>
+					<label class="callback-form__agreement agreement">
+						<input class="agreement__checkbox" type="checkbox" checked required>
+						<span class="agreement__fake-checkbox"></span>
+						<span class="agreement__text"> Я принимаю условия <br><a class="agreement__link" href="#">пользовательского соглашения</a></span>
+					</label>
+				</form>
+			</div>
+			<div class="callback__background callback__background_middle"></div>
 		</div>
-		<div>Тут мальчик с лупой на бэкграунде</div>
 	</section>
 	<section class="extra-services page__element">
 		<h2 class="heading-2">Дополнительные услуги</h2>
@@ -375,18 +382,24 @@
 		</article>
 	</section>
 	
-	<section class="callback-banner--light page__element">
-		<div>
-			<h2 class="heading-2">Остались вопросы? Получите бесплатную консультацию</h2>
-			<p>Оставьте телефон и мы перезвоним<br> 
-			и расскажем все подробности о филиале</p>
-			<form method="post" action="#">
-				<input type="tel" name="phone" placeholder="+7___-___-__-__" required>
-				<button>отправить</button>
-				<label><input type="checkbox" checked required><span class="fakeCheckbox"></span> Я принимаю условия <br><a href="#">пользовательского соглашения</a></label>
-			</form>
+	<section class="callback callback_light-theme callback_bottom page__element_size_full">
+		<div class="callback__wrapper">
+			<div class="callback__content">
+				<h2 class="heading-2 callback__heading callback__heading_light-theme">Остались вопросы? Получите бесплатную консультацию</h2>
+				<p class="callback__description callback__description_light-theme">Оставьте телефон и мы перезвоним<br> 
+				и расскажем все подробности о филиале</p>
+				<form class="callback__form callback-form" method="post" action="#">
+					<input class="callback-form__input callback-form__input_light-theme callback-form__phone" type="tel" name="phone" placeholder="+7___-___-__-__" required>
+					<button class="callback-form__submit callback-form__submit_light-theme">отправить</button>
+					<label class="callback-form__agreement agreement">
+						<input class="agreement__checkbox" type="checkbox" checked required>
+						<span class="agreement__fake-checkbox agreement__fake-checkbox_light-theme"></span>
+						<span class="agreement__text agreement__text_light-theme"> Я принимаю условия <br><a class="agreement__link agreement__link_light-theme" href="#">пользовательского соглашения</a></span>
+					</label>
+				</form>
+			</div>
+			<div class="callback__background callback__background_bottom"></div>
 		</div>
-		<div>Тут мальчик в очках на бэкграунде</div>
 	</section>
 	
 	<section class="about-us page__element">
